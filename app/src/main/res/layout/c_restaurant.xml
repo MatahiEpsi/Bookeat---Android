@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:divider="@null"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="25dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/isOpen"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ouvert maintenant"
+                android:textSize="12dp"
+                android:textColor="@android:color/holo_green_light"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/horaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12h - 23h"
+            android:textSize="12dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="14dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>
